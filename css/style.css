@@ -15,7 +15,7 @@ h1{
 	margin: 0 auto;
 }
 
-h2, p#description{
+h2, p#description, p#message{
 	font-size: 24px;
 	text-align: center;
 	color: #a7a7a7;
@@ -33,6 +33,11 @@ ul{
 li{
 	display: inline-block;
 	margin-left: 12px;
+}
+
+p#message{
+	font-size: 15px;
+	margin-top: 25px;
 }
 
 @media screen and (max-height: 480px){
