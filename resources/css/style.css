@@ -1,18 +1,21 @@
+
+
 body{
-	font-family: 'HelveticaNeue-Light','Helvetica Neue', Arial, sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height: 1.25;
 	margin-top: 8em;
-	margin-left: 0em;
-	margin-right: 0em;
+	margin-left: 2em;
+	margin-right: 2em;
 	font-size: 20px;
 	width: 100%;
 }
 
 h1{
-	font-size: 32px;
+	font-family:'Open Sans',sans-serif;
+	font-size: 34px;
 	text-align: center;
-	font-weight: lighter;
 	margin: 0 auto;
+	font-weight: 900;
 }
 
 h2, p#description, p#message{
@@ -20,7 +23,6 @@ h2, p#description, p#message{
 	text-align: center;
 	color: #a7a7a7;
 	margin-top: 0;
-	font-weight: lighter;
 }
 
 ul{
