@@ -12,27 +12,31 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.25;
-	font-size: 1em;
+	font-size: 1.3rem;
 	margin:0em auto;
 	padding: 2em 2em 0em;
-	max-width:400px;
+	max-width:450px;
 
 }
 h1{
 	font-family:'Open Sans',sans-serif;
 	text-align: left;
 	font-weight: 700;
+	font-size: 32pt;
 }
 h2{
 	margin:0.2em auto;
-	font-weight: 400;
+	font-weight: 700;
+	font-size: 17pt;
+
 }
 img{
 	max-width: 400px;
 	border-radius: 8px;
 }
-
-
+a:link, visited{
+	text-decoration: none;
+}
 
 /* h2, p#description, p#message{
 	font-size: 24px;
