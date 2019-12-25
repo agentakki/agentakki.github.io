@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Merriweather:400,400i&display=swap');
+
 :root{
 	color-scheme: light dark;
 	--color-background:#ffffff;
@@ -10,29 +12,30 @@
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.25;
-	font-size: 1.3rem;
+	font-family: 'Merriweather', serif;
+	line-height: 1.4;
+	font-size: 1.2rem;
 	margin:0em auto;
 	padding: 2em 2em 0em;
 	max-width:450px;
-
 }
-h1{
+
+h1,h2{
 	font-family:'Open Sans',sans-serif;
 	text-align: left;
 	font-weight: 700;
-	font-size: 32pt;
+}
+h1{
+		font-size: 32pt;
 }
 h2{
 	margin:0.2em auto;
-	font-weight: 700;
 	font-size: 17pt;
-
 }
 img{
-	max-width: 400px;
+	max-width: 95%;
 	border-radius: 8px;
+	align-content: center;
 }
 a:link, visited{
 	text-decoration: none;
