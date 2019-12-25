@@ -27,6 +27,10 @@ h2{
 	margin:0.2em auto;
 	font-weight: 400;
 }
+img{
+	max-width: 400px;
+	border-radius: 8px;
+}
 
 
 
