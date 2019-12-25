@@ -1,15 +1,27 @@
-body{
-	font-family: 'Lato', sans-serif;
-	line-height: 1.25;
-	font-size: 20px;
-	width: 90%;
+:root{
+	color-scheme: light dark;
 }
 
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.25;
+	font-size: 1em;
+	margin:0em auto;
+	padding: 1em 1em 0em;
+	max-width:400px;
+
+}
 h1{
 	font-family:'Open Sans',sans-serif;
 	text-align: left;
-	font-weight: 900;
+	font-weight: 700;
 }
+h2{
+	margin:0.2em auto;
+	font-weight: 400;
+}
+
+
 
 /* h2, p#description, p#message{
 	font-size: 24px;
@@ -33,10 +45,10 @@ li{
 p#message{
 	font-size: 15px;
 	margin-top: 25px;
-} --!> */
+} 
 
 @media screen and (max-height: 480px){
 	body{
-		margin-top: 6em;
-	}
+		margin-top: 0em;
+	} */
 }
