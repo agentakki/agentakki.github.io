@@ -1,5 +1,12 @@
 :root{
 	color-scheme: light dark;
+	--color-background:#ffffff;
+	--color-text-default: #333333;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+--color-background: #000000;
+--color-text-default: #e1e1e1;}
 }
 
 body{
